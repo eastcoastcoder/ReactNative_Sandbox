@@ -1,5 +1,4 @@
-#
-iReactNativeHackIL
+# ReactNativeHackIL
 Project for HackIllinois
  
 # Running instructions
