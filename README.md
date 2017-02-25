@@ -1,6 +1,7 @@
-# ReactNativeHackIL
+#
+iReactNativeHackIL
 Project for HackIllinois
-
+ 
 # Running instructions
 ## Android
 Ensure the following dependencies are installed (Better safe than sorry)
