@@ -16,6 +16,7 @@
    "welcome": "Welcome",
    "login": "Login",
    "tempIndicator": "F",
+   "mainApp": "Main App",
    "componentExamples": "Component Examples",
    "usageExamples": "Usage Examples",
    "apiTesting": "API Testing",

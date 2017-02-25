@@ -23,6 +23,11 @@ class DrawerContent extends Component {
     this.context.drawer.toggle()
   }
 
+  handlePressMainApp = () => {
+    this.toggleDrawer()
+    NavigationActions.mainApp()
+  }
+
   handlePressComponents = () => {
     this.toggleDrawer()
     NavigationActions.componentExamples()
@@ -52,6 +57,7 @@ class DrawerContent extends Component {
     return (
       <ScrollView style={styles.container}>
         <Image source={Images.logo} style={styles.logo} />
+        <DrawerButton text='Main App' onPress={this.handlePressMainApp} />
         <DrawerButton text='Component Examples' onPress={this.handlePressComponents} />
         <DrawerButton text='Usage Examples' onPress={this.handlePressUsage} />
         <DrawerButton text='API Testing' onPress={this.handlePressAPI} />
